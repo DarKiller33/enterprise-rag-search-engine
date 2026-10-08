@@ -37,3 +37,79 @@ A production-grade, 100% private Retrieval-Augmented Generation (RAG) platform t
                                                        │
                                                        ▼
 [ Synthesized Answer ] ◄── [ Ollama Llama 3.2 ] ◄── [ Relevant Context Chunks ]
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3.10+
+- **Framework:** LangChain & LangChain-Classic
+- **Vector Store:** ChromaDB
+- **Embedding Model:** HuggingFace `sentence-transformers/all-MiniLM-L6-v2`
+- **Local LLM Server:** Ollama (`llama3.2`)
+- **Frontend:** Streamlit
+
+---
+
+## 🚀 Quickstart Guide
+
+### Prerequisites
+
+#### 1. Install Ollama
+
+Install Ollama and pull the Llama 3.2 model:
+
+```bash
+ollama pull llama3.2
+```
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3.10+
+- **Framework:** LangChain & LangChain-Classic
+- **Vector Store:** ChromaDB
+- **Embedding Model:** HuggingFace `sentence-transformers/all-MiniLM-L6-v2`
+- **Local LLM Server:** Ollama (`llama3.2`)
+- **Frontend:** Streamlit
+
+---
+
+## 🚀 Quickstart Guide
+
+### Prerequisites
+
+#### 1. Install Ollama
+
+Install Ollama and pull the Llama 3.2 model:
+
+```bash
+ollama pull llama3.2
+2. Clone the Repository
+git clone https://github.com/DarkKiller33/enterprise-rag-search-engine.git
+cd enterprise-rag-search-engine
+Installation
+1. Create and activate a virtual environment
+
+This is optional but recommended:
+
+python3 -m venv venv
+source venv/bin/activate
+2. Install dependencies
+pip install -r requirements.txt
+▶️ Running the Application
+
+Launch the Streamlit web application:
+
+streamlit run app.py
+
+Open your browser and navigate to:
+
+http://localhost:8501
+📸 Demonstration
+Document Ingestion & Search
+```
+
+
+Upload PDF or TXT files and index their contents into the persistent ChromaDB vector store.
+
+Source Chunk Provenance
+
+The application displays the relevant retrieved context chunks beneath the generated answer, allowing users to inspect the source information used by the RAG pipeline.
