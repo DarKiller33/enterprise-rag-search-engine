@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Project data & Vector DB (DO NOT PUSH)
+chroma_db/
+docs/*
+!docs/.gitkeep
+
+# Environment & Streamlit settings
+.env
+.venv/
+env/
+venv/
+.streamlit/
