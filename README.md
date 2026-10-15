@@ -21,6 +21,15 @@ A production-grade, 100% private Retrieval-Augmented Generation (RAG) platform t
 
 ---
 
+<img width="1897" height="870" alt="Screenshot 2026-10-15 194818" src="https://github.com/user-attachments/assets/04473ffc-10e2-4336-8e55-40690739ec2a" />
+
+
+
+
+
+<img width="1527" height="618" alt="Screenshot 2026-10-15 194924" src="https://github.com/user-attachments/assets/41dd9f4c-858c-472b-8e1f-4fb501dde8fa" />
+
+
 ## 📐 System Architecture
 
 ```text
